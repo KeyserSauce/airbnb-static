@@ -1,20 +1,27 @@
-#footer {
-  background: #333333;
+.footer {
+  background: $gray-light;
   padding: 30px 0;
-  color: #CCCCCC;
-}
-#footer p {
-  margin-top: 17px;
-}
-#footer ul {
+  color: $gray;
+  p {
+    margin-top: 17px;
+  }
+  ul {
   margin-top: 10px;
+  }
 }
-#footer a {
-  color: #CCCCCC;
-  font-size: 30px;
-  letter-spacing: 20px;
-  transition: color 0.5s ease;
+.fa-twitter:hover {
+  color: #059ff5;
 }
-#footer a:hover{
-  color: yellow;
+.fa-facebook:hover {
+  color: #39579a;
+}
+.fa-instagram:hover {
+  background: #00C9FF; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fb2e72 , #5c31d2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fb2e72 , #5c31d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-youtube:hover {
+  color: #e91d00;
 }
